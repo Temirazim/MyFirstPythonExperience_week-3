@@ -29,8 +29,10 @@
 #         self.video_card = video_card
 #         self.jestkii_disk = jestkii_disk
 #         self.display_size = display_size
+#     def __str__(self):
+#         return f"processor: {self.processor}, ram: {self.ram},video_card: {self.video_card}, jestkii_disk: {self.jestkii_disk}, display_size: {self.display_size}"
 # nout = Lenovo('16', '4gb', '10', '1000', '16*3')
-# print(nout.__dict__)
+# print(nout)
 
 
 
@@ -87,17 +89,33 @@
 # "location": [25.2285, 55.3273]
 
 
-class Markers():
+class Hotels():
     def __init__(self, name, location):
         self.name = name
         self.location = location
 
     def mark1(self):
-        return self.name, self.location
+        return self.name
+    def mark2(self):
+        return tuple(self.name)
+        return tuple(self.location)
+        return f("'name': {self.name}\n'location': {self.location}")
+        lst = []
+        lst.append(f"'name': {self.name}\n'location': {self.location}")
+        return lst
+    # def ma
             
-    # def mark2(self):
-a = Markers("Rixos The Palm Dubai", '[25.1212, 55.1535]')
+    
+a = Hotels("Rixos The Palm Dubai", "[25.1212, 55.1535]")
+b = Hotels("Shangri-La Hotel", [25.2084, 55.2719])
+c = Hotels("Grand Hyatt", [25.2285, 55.3273])
 print(a.mark1())
+print(" ".join(a.mark2()))
+print(b.mark1())
+print(b.mark2())
+print(c.mark1())
+print(c.mark2())
+
 
 
     

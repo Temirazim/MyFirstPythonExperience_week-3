@@ -388,29 +388,28 @@ print
 # print(" ".join(Penny.output()))
 
 #Another method
-class Student():
-    def __init__(self,name,age,major):
-        self.name = name
-        self.age = age 
-        self.major = major
+# class Student():
+#     def __init__(self,name,age,major):
+#         self.name = name
+#         self.age = age 
+#         self.major = major
     
-    def __repr__(self):
-        return (f'\nname--{self.name}-age-{self.age}-major-{self.major}')
+#     def __repr__(self):
+#         return (f'\nname-{self.name} age-{self.age} major-{self.major}')
 
-Steve = Student("Steven Schultz", 23, "English")
-Johnny = Student("Jonathan Rosenberg", 24, "Biology")
-Penny = Student("Penelope Meramveliotakis", 21, "Physics")
+# Steve = Student("Steven Schultz", 23, "English")
+# Johnny = Student("Jonathan Rosenberg", 24, "Biology")
+# Penny = Student("Penelope Meramveliotakis", 21, "Physics")
 
-print(Penny)
-print(Johnny)
-print(Penny)
+# print(Penny)
+# print(Johnny)
+# print(Penny)
 
 
 
 # 8)Dollar
 
 # Create function dollarize() that takes Float and returns dollarized format:
-
 # Copy
 # dollarize(123456.78901) -> "$123,456.80"
 # dollarize(-123456.7801) -> "-$123,456.78"
@@ -659,12 +658,18 @@ print(Penny)
 
 # ﻿
 
-# В основной ветке программы создается по одному герою для каждой команды. В цикле генерируются объекты-солдаты. Их принадлежность команде определяется случайно. Солдаты разных команд добавляются в разные списки.
+# В основной ветке программы создается по одному герою для каждой команды. 
+# В цикле генерируются объекты-солдаты. Их принадлежность команде определяется случайно. 
+# Солдаты разных команд добавляются в разные списки.
 
 # ﻿
 
-# Измеряется длина списков солдат противоборствующих команд и выводится на экран. У героя, принадлежащего команде с более длинным списком, поднимается уровень.
+# Измеряется длина списков солдат противоборствующих команд и выводится на экран. 
+# У героя, принадлежащего команде с более длинным списком, поднимается уровень.
 
 # ﻿
 
-# Отправьте одного из солдат первого героя следовать за ним. Выведите на экран идентификационные номера этих двух юнитов.
+# Отправьте одного из солдат первого героя следовать за ним. 
+# Выведите на экран идентификационные номера этих двух юнитов.
+
+

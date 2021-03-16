@@ -53,16 +53,18 @@
 # К объекту Zoo добавьте атрибут animal_4 и присвойте ему list состоящий из animal_2 и animal_3
 # В объекте Zoo измените значение атрибута animal_3 и присвойте ему значение "Змея".
 
-class Zoo:
-    def __init__(self, animal_1 = "tiger", animal_2 = "begemot", animal_3 = "giraff"):
-        self.animal_1 = animal_1
-        self.animal_2 = animal_2
-        self.animal_3 = animal_3
-        self.animal_1 = 'lion'
-        self.animal_4 = [animal_2, animal_3]
-        self.animal_3 = 'snake'
-       
-anim = Zoo()
-print(anim.__dict__)
+# class Zoo:
+#     def __init__(self, animal_1 = "tiger", animal_2 = "begemot", animal_3 = "giraff"):
+#         self.animal_1 = animal_1
+#         self.animal_2 = animal_2
+#         self.animal_3 = animal_3
+#         self.animal_1 = 'lion'
+#         self.animal_4 = [animal_2, animal_3]
+#         self.animal_3 = 'snake'
+        
+#     def __str__(self):
+#         return f"{self.animal_1}, {self.animal_2}, {self.animal_3}, {self.animal_4}"
+# anim = Zoo()
+# print(anim)
 
 

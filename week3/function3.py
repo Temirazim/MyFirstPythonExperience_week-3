@@ -43,11 +43,11 @@
 # Напишите функцию которая принимает SET и 
 # рекурсивно удаляет оттуда по одному элементу при запуске.
 
-# def set1(a):
-#     print(a)
-#     a.pop()
-#     set1(a)
-# set1({'1','2','3','4','5'})    
+def set1(a):
+    print(a)
+    a.pop()
+    set1(a)
+set1({'1','2','3','4','5'})    
 
 # №5
 # Напишите функцию которая генерирует 100 рандомных чисел в диапазоне от 10 до 50 и возвращает их в листе. 
@@ -87,22 +87,22 @@
 # Напишите декоратор который шифрует эти данные и возвращает вам зашифрованные данные. 
 # (Можете воспользоваться функцией ord и char, можете загуглить...)
 #метод Кайрата 
-def log_pass(func):
-    a = input('Login: ')
-    b = input('Password: ')
-    func(a, b)
+# def log_pass(func):
+#     a = input('Login: ')
+#     b = input('Password: ')
+#     func(a, b)
 
 
-@log_pass
-def shifr(a,b):
-    i = 0
-    for x in a:
-        print(i + ord(x))
-        break
-    e = 0
-    for y in b:
-        print(e + ord(y)) 
-        break
+# @log_pass
+# def shifr(a,b):
+#     i = 0
+#     for x in a:
+#         print(i + ord(x))
+#         break
+#     e = 0
+#     for y in b:
+#         print(e + ord(y)) 
+#         break
 # def decrypt(message):
 #     newS=''
 #     for car in message:
